@@ -1,0 +1,204 @@
+img.bio
+{
+    padding: 1em;
+    float: right;
+}
+
+span.alert
+{
+    color: #FF0000;
+    font-weight: bold;
+}
+
+div
+{
+	font-size: 100%;
+	font-family: sans-serif;
+}
+
+div.box
+{
+	border-width: thick;
+	border-color: #003C7D;
+	/*border-color: #800000;*/
+	overflow: hidden;
+}
+
+#badges
+{
+	width: 70%;
+	margin-left: auto;
+	margin-right: 0px;
+	border-top-style: solid;
+	margin-top: 1.5em;
+	/*padding-top: .5em;*/
+	padding-left: .5em;
+	text-align: right;
+}
+
+span.math
+{
+	font-style: italic;
+}
+
+span.roman
+{
+	font-family: serif;
+}
+
+#navbar
+{
+	width: 25%;
+	top: 4.5em;
+	position: absolute;
+	overflow: hidden;
+	border-right-style: solid;
+}
+
+#navbar h1
+{
+	margin-left: 1em;
+}
+
+#navbar ul
+{
+	list-style-position: outside;
+	list-style-type: none;
+}
+
+#navbar ul li
+{
+	margin-bottom: .5em;
+	font-size: 115%;
+}
+
+#rightpane
+{
+	top: 4.5em;
+	width: 70%;
+	position: absolute;
+	left: 27%;
+	margin-bottom: 1em;
+}
+
+#content
+{
+/*	top: 4.5em;
+	width: 70%;
+	position: absolute;
+	left: 27%;*/
+	border-left-style: solid;
+	padding-left: .5em;
+}
+
+#fortune
+{
+	width: 70%;
+	margin-left: auto;
+	margin-right: 0px;
+	border-top-style: solid;
+	margin-top: 1.5em;
+	padding-top: .5em;
+	padding-left: .5em;
+}
+
+div.quotation
+{
+	font-style: italic;
+	overflow: visible;
+}
+
+div.attribution
+{
+	text-align: right;
+	overflow: visible;
+}
+
+#content p
+{
+	padding-left: .1em;
+}
+
+#wrapper
+{
+	position: relative;
+	width: 800px;
+}
+
+#titlebar
+{
+	position: absolute;
+	width: 100%;
+	height: 4em;
+	border-bottom-style: solid;
+	border-bottom-color: #003C7D; /* #800000;*/
+	overflow: visible;
+}
+
+#titlebar h1
+{
+	margin: 0em;
+	margin-top: .4em;
+	font-size: 200%;
+	font-family: Palatino;
+}
+
+h1
+{
+	font-size: 125%;
+	font-family: Palatino;
+	margin-top: 0em;
+}
+
+h2
+{
+	font-family: Palatino;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+th
+{
+	font-family: Palatino;
+	font-weight: normal;
+	font-size: 100%;
+}
+
+a
+{
+	color: #003C7D; /* #cc0000;*/
+	text-decoration: underline;
+}
+
+a:hover
+{
+	color:  #F47F24; /* #ff0000;*/
+	text-decoration: underline;
+}
+
+#tainfo
+{
+}
+
+#tainfo td.q
+{
+	font-weight: bold;
+}
+
+#tainfo td.a
+{
+	padding-left: 1em;
+}
+
+a.paper
+{
+	font-family: Palatino, serif;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+#content ul
+{
+	list-style-position: outside;
+	list-style-type: none;
+}
