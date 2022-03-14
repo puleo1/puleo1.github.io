@@ -20,7 +20,7 @@ def do_template(cprefix):
 
 def main():
     if len(sys.argv) < 2:
-        print "usage: %s contentprefix [contentprefix ...]" % sys.argv[0]
+        print("usage: %s contentprefix [contentprefix ...]" % sys.argv[0])
         return
 
     for n in range(1, len(sys.argv)):
